@@ -13,7 +13,7 @@ dist: bump
 	cp -r src icons manifest.json dist/
 
 zip: clean dist
-	cd dist && zip -r ../void-tab.zip * && zip -r ../void-tab-firefox.xpi * 
+	cd dist && zip -r ../xvoid.zip * && zip -r ../xvoid-firefox.xpi * 
 
 release: zip
 	@echo "\n📦 Uploading version $$(jq -r .version manifest.json) to Mozilla's servers for signing... (this may take a few minutes)\n"

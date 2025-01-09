@@ -1,61 +1,53 @@
 <div align="center">
   <h1>
-    <img valign="middle" src="/icons/icon_128.png" alt="void-tab" height="64" />
-    void-tab
+    <img valign="middle" src="/icons/icon_128.png" alt="xvoid" height="64" />
+    XVOID
   </h1>
-  <h3>... silence ... void ... eternal ... a minimal cosmic void new tab extension ...</h3>
+  <h3>... a minimal, distraction-free new tab cosmic void experience ...</h3>
 </div>
 
 ---
 
-nothing was
-nothing is
-nothing will be
+a break from the game loop
+continue
+break
+return
+nil
+null
+..
 
-VOID
-----
+---
 
-- absence
-- silence
-- whispers
-- eternal
-- nowhere
-- now
-
-INSTALL
--------
+## INSTALL
 
 ### Firefox
-- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/void-tab/) _(coming soon...)_
-- download `latest.xpi` from [releases](https://github.com/metaory/void-tab/releases)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/xvoid/) _(coming soon...)_
+- download `latest.xpi` from [releases](https://github.com/metaory/xvoid/releases)
 - or build locally with `make` and use `latest.xpi`
 
 ### Chrome
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/void-tab/) _(coming soon...)_
-- download `void-tab.zip` from [releases](https://github.com/metaory/void-tab/releases)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/xvoid/) _(coming soon...)_
+- download `xvoid.zip` from [releases](https://github.com/metaory/xvoid/releases)
 - or load unpacked:
   1. open `chrome://extensions`
-  2. enable developer mode
+  2. enable **developer** mode
   3. load unpacked
   4. select `dist` directory
 
-BUILD
------
+## BUILD
 
 ```bash
 make        # build, bump version and sign
 make zip    # only build and package
 ```
 
-OPTIONS
--------
+## OPTIONS
 
 - click top left corner
 - click extension icon
 
 ---
 
-LICENSE
--------
+## LICENSE
 
 [MIT](LICENSE)

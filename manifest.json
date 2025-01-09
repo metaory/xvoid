@@ -1,14 +1,13 @@
 {
-  "name": "void-tab",
-  "summary": "a minimal cosmic void new tab experience",
-  "description": "a minimal cosmic void new tab extension featuring an interactive parallax star field that responds to your movement",
+  "name": "xvoid",
+  "description": "A minimal, distraction-free new tab cosmic void experience",
   "version": "0.0.5",
   "manifest_version": 3,
   "author": "metaory <metaory@gmail.com>",
-  "homepage_url": "https://github.com/metaory/void-tab",
+  "homepage_url": "https://github.com/metaory/xvoid",
   "browser_specific_settings": {
     "gecko": {
-      "id": "void-tab@metaory.github.io",
+      "id": "xvoid@metaory.github.io",
       "strict_min_version": "115.0"
     }
   },
@@ -20,7 +19,7 @@
   },
   "action": {
     "default_icon": "icons/icon_48.png",
-    "default_title": "void-tab"
+    "default_title": "xvoid"
   },
   "chrome_url_overrides": {
     "newtab": "src/newtab.html"
@@ -32,9 +31,5 @@
   "permissions": [
     "storage"
   ],
-  "short_name": "void",
-  "developer": {
-    "name": "metaory",
-    "url": "https://github.com/metaory"
-  }
+  "short_name": "xvoid"
 }
