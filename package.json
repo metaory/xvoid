@@ -1,0 +1,11 @@
+{
+  "name": "xvoid",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "description": "a minimal, distraction-free new tab cosmic void experience",
+  "author": "metaory <metaory@gmail.com>",
+  "license": "MIT"
+}

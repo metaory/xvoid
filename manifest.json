@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "xvoid",
+  "version": "1.0.0",
+  "description": "a minimal, distraction-free new tab cosmic void experience",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_popup": "src/popup.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "src/icons/icon_16.png",
+    "32": "src/icons/icon_32.png",
+    "48": "src/icons/icon_48.png",
+    "128": "src/icons/icon_128.png"
+  }
+} 
